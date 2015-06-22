@@ -18,8 +18,8 @@ group :development, :test do
   gem 'watchr'
   gem 'factory_girl'
   gem 'shoulda'
-  gem "rspec", "~> 2.9.0"
-  gem 'rspec-rails', '2.9.0'
+  gem "rspec", "< 4"
+  gem 'rspec-rails', '< 4'
   gem "bundler"
   gem "jeweler"
   # gem "rcov", ">= 0"
